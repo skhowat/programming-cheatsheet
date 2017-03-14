@@ -1,17 +1,47 @@
 h1{
   font-family: Helvetica, Verdana, sans-serif;
+  color: white;
 }
 
 body {
-  background-color: gray;
+  background-color: #c5d1e5;
 }
 
 #top {
-  background-color: pink;
+  background-color: #39588e;
+}
+
+#top p {
+  color: white;
 }
 
 #links {
-  background-color: blue;
+  background-color: #dadee5;
   border-style: solid;
   border-color: black;
+
+}
+
+#solid-border {
+  border-style: solid;
+}
+
+#dotted-border {
+  border-style: dotted;
+}
+
+#dashed-border {
+  border-style: dashed;
+}
+
+#double-border {
+  border-style: double;
+}
+
+#letter-space1 {
+  letter-spacing: 5px;
+}
+
+#letter-space2 {
+  letter-spacing: -1.6px;
 }
