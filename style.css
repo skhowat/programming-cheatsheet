@@ -9,3 +9,11 @@ p{
 h2{
   color: blue;
 }
+
+div{
+  border: dashed 1px red;
+}
+
+span{
+  border: solid 1px green;
+}
