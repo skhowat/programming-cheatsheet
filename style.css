@@ -2,18 +2,16 @@ h1{
   font-family: Helvetica, Verdana, sans-serif;
 }
 
-p{
-  color: pink;
+body {
+  background-color: gray;
 }
 
-h2{
-  color: blue;
+#top {
+  background-color: pink;
 }
 
-div{
-  border: dashed 1px red;
-}
-
-span{
-  border: solid 1px green;
+#links {
+  background-color: blue;
+  border-style: solid;
+  border-color: black;
 }
