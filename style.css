@@ -1,6 +1,14 @@
+.container {
+  background-color: #c5d1e5;
+  margin: 0 auto 0 auto;
+  max-width: 750px;
+}
+
+
 h1{
   font-family: Helvetica, Verdana, sans-serif;
   color: white;
+  text-align: center;
 }
 
 body {
@@ -13,6 +21,7 @@ body {
 
 #top p {
   color: white;
+  text-align: center;
 }
 
 #links {
@@ -44,4 +53,52 @@ body {
 
 #letter-space2 {
   letter-spacing: -1.6px;
+}
+
+#border-radius1 {
+  background-color: red;
+  width: 300px;
+  height: 50px;
+  margin: 4px;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#border-radius2{
+  background-color: red;
+  width: 300px;
+  height: 50px;
+  margin: 4px;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px 0px;
+}
+
+#border-radius3 {
+  background-color: red;
+  width: 300px;
+  height: 50px;
+  margin: 4px;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 0px 10px;
+}
+
+#border-radius4 {
+  background-color: red;
+  width: 300px;
+  height: 50px;
+  margin: 4px;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0px 10px;
 }
