@@ -1,3 +1,10 @@
+@font-face {
+  font-family: PT-Serif;
+  src: url("PT_Serif-Web-Regular.ttf");
+}
+
+
+
 .container {
   background-color: #c5d1e5;
   margin: 0 auto 0 auto;
@@ -25,6 +32,7 @@ body {
 }
 
 #links {
+  font-family: PT-Serif;
   background-color: #dadee5;
   border-style: solid;
   border-color: black;
@@ -116,4 +124,8 @@ body {
   max-width: 500px;
   margin: auto;
   margin-bottom: 25px;
+}
+
+.description {
+  font-family: PT-Serif;
 }
