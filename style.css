@@ -129,3 +129,27 @@ body {
 .description {
   font-family: PT-Serif;
 }
+
+#transition-box-container {
+  height: 220px;
+}
+
+#transition-box {
+  height: 100px;
+  width: 200px;
+  background-color: #00A0B6;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  margin: 0 auto;
+  transition: height 2s, width 2s, background-color 2s, color 2s, line-height 2s, font-size 2s;
+}
+
+#transition-box:hover {
+  height: 200px;
+  width: 400px;
+  background-color: #FFBF00;
+  color: #008A9F;
+  line-height: 200px;
+  font-size: 1.5em;
+}
