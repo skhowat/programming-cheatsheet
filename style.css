@@ -153,3 +153,29 @@ body {
   line-height: 200px;
   font-size: 1.5em;
 }
+
+
+
+@keyframes testAnimation {
+  0% {background-color: #FFDA2F; left: 0px;}
+  25% {background-color: #008973; left: 50px;}
+  50% {background-color: #007FC1;left: 100px;}
+  75% {background-color: #FF709C; left: 150px;}
+  100% {background-color: #FFDA2F; left: 200px;}
+}
+
+
+
+#animation-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #FFDA2F;
+  margin: 50px;
+  position: relative;
+  animation-name: testAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
